@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'AileronHeavy';
+    src: url('../fonts/AileronHeavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AileronLight';
+    src: url('../fonts/AileronLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AileronBold';
+    src: url('../fonts/AileronBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Not Used
+@font-face {
+    font-family: 'AileronBlack';
+        src: url('../font/AileronBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'AileronBlackItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/a502f0d28a7a3ccc13bebec3d82ecfe1/AileronBlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'AileronBoldItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/b0a6a475e1a12c30cf52732ef52ba788/AileronBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'AileronHeavyItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/228d417e0db435154d215260c8c42735/AileronHeavyItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'AileronItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/f9439eeef7b2f772b7b6cd38867f9c08/AileronItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'AileronLightItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/5c532e35bb87bd460beccea387ada6fe/AileronLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'AileronRegular';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/d321fa78bb7190a8ca7e14213ef63203/AileronRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'AileronSemiBold';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/75a9b8cddcd9418eb51ceeb4f3c7708f/AileronSemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'AileronSemiBoldItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/54debf943bf8615696227d1769859dac/AileronSemiBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'AileronThin';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/419292fe8387a75bfe853311592f4d45/AileronThin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'AileronThinItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/de05da0c8d6d86a5d8d29b6a3c716348/AileronThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'AileronUltraLight';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/a22143d3b0294cd8ef26dffbf6df3988/AileronUltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'AileronUltraLightItalic';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/fdf0ea015279a90ff746fb58dec3da11/AileronUltraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+ /* The following rues are deprecated. 
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/f1a2e927ec4caa11793c65e2689001ec/AileronBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/a502f0d28a7a3ccc13bebec3d82ecfe1/AileronBlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/3cdf602b3281ee10ef3c7260cafd634f/AileronBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/b0a6a475e1a12c30cf52732ef52ba788/AileronBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/621ba5aaf66e52f3def0cf69807104b9/AileronHeavy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/228d417e0db435154d215260c8c42735/AileronHeavyItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/f9439eeef7b2f772b7b6cd38867f9c08/AileronItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/7120f405f94a79633cb8671daf076264/AileronLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/5c532e35bb87bd460beccea387ada6fe/AileronLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/d321fa78bb7190a8ca7e14213ef63203/AileronRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/75a9b8cddcd9418eb51ceeb4f3c7708f/AileronSemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/54debf943bf8615696227d1769859dac/AileronSemiBoldItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/419292fe8387a75bfe853311592f4d45/AileronThin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/de05da0c8d6d86a5d8d29b6a3c716348/AileronThinItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/a22143d3b0294cd8ef26dffbf6df3988/AileronUltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Aileron';
+        src: url('/assets/fonts/aileron/c2c609c1043931188df4838d66367e55/fdf0ea015279a90ff746fb58dec3da11/AileronUltraLightItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+*/

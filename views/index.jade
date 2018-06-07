@@ -1,0 +1,38 @@
+doctype html 
+html
+    head
+        title Login ISTEV
+        link(href='plugins/aileron.css', rel='stylesheet')
+        link(href='plugins/bootstrap.min.css', rel='stylesheet')
+        link(href='css/icons.css', rel='stylesheet')
+        link(href='css/main.css', rel='stylesheet')
+        link(href='icon/favicon.png', rel='icon')
+        
+        script(defer,src='plugins/jquery-3.3.1.min.js')
+        script(defer,src='plugins/sweetalert2.all.js')
+        script(defer,src='js/main.js')
+    body
+        div.limiter
+            div.container-login100
+                    
+                div.wrap-login100
+                    span.main-title
+                        img(src='icon/favicon.png',height='100px',width='100px')
+                    span.main-title Login ISTEV
+                    form.login100-form.validate-form
+                        span.login100-form-title.p-b-26 Sistema de Administración
+                        div.wrap-input100.validate-input(data-validate='Solo se permiten letras')
+                            input#user.input100(type="text" name="username")
+                            span.focus-input100(data-placeholder="Nombre de Usuario")
+                        div.wrap-input100.validate-input(data-validate='Ingrese la clave')
+                            span.btn-show-pass
+                                i.icon-eye
+                            input#pass.input100(type='password' name='pass')
+                            span.focus-input100(data-placeholder='Password')
+                            
+                        div.container-login100-form-btn
+                            div.wrap-login100-form-btn
+                                div.login100-form-bgbtn
+                                button#btn-submit.login100-form-btn Ingresar
+                                
+                                

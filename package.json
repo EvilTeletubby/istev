@@ -1,0 +1,20 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "Express WAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester"
+  },
+  "author": "Gustavo Santiago",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "jade": "~1.11.0",
+    "nodemon": "^1.17.4",
+    "passport": "^0.4.0",
+    "webfontloader": "^1.6.28"
+  }
+}
